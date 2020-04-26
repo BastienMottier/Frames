@@ -13,8 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.apps.frames.sample
+package com.adraxas.wallx
 
-import jahirfiquitiva.libs.frames.data.services.FramesArtProvider
+/* TODO: Remove comment marks to enable
+import com.onesignal.NotificationExtenderService
+import com.onesignal.OSNotificationReceivedResult
+import jahirfiquitiva.libs.frames.helpers.utils.FramesKonfigs
 
-class MuzeiService : FramesArtProvider()
+class NotificationService : NotificationExtenderService() {
+    override fun onNotificationProcessing(notification: OSNotificationReceivedResult?): Boolean =
+            !FramesKonfigs(this).notificationsEnabled
+}
+*/

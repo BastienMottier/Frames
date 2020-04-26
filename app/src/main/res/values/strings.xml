@@ -15,17 +15,17 @@
   -->
 <resources>
     <!-- Your app name -->
-    <string name="app_name">Frames</string>
+    <string name="app_name">Wallx</string>
 
     <!--    This one applies for Muzei too. Try not to exceed 140 characters -->
     <string name="app_description">A great wallpapers app with hundreds of cool pictures.</string>
 
     <!--    TODO: Change this link -->
     <!--    This is the link for the JSON file where you have listed your wallpapers -->
-    <string name="json_url">https://jahir.dev/frames/wallpapers.json</string>
+    <string name="json_url">https://bastien.dev/json.php?type=wallx</string>
 
     <!--    Default wallpapers download folder. Always write it like '%1$s/xxxxxxx' -->
-    <string name="default_download_folder">%1$s/Frames/Wallpapers</string>
+    <string name="default_download_folder">%1$s/Wallx/Wallpapers</string>
 
     <!-- Privacy Policy link or url -->
     <string name="privacy_policy_link">""</string>

@@ -13,22 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.apps.frames.sample
+package com.adraxas.wallx
 
-import android.app.Application
+import jahirfiquitiva.libs.frames.data.services.FramesArtProvider
 
-// TODO: Remove comment marks to enable
-// import com.onesignal.OneSignal
-
-class MyApplication : Application() {
-    override fun onCreate() {
-        super.onCreate()
-        // TODO: Remove comment marks to enable
-        /*
-        OneSignal.startInit(this)
-                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
-                .unsubscribeWhenNotificationsAreDisabled(true)
-                .init()
-                */
-    }
-}
+class MuzeiService : FramesArtProvider()

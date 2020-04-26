@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package jahirfiquitiva.apps.frames.sample
+package com.adraxas.wallx
 
 import com.github.javiersantos.piracychecker.PiracyChecker
 import jahirfiquitiva.libs.frames.ui.activities.FramesActivity
@@ -25,15 +25,15 @@ class MainActivity : FramesActivity() {
      */
     override var donationsEnabled = true
     
-    override fun amazonInstallsEnabled(): Boolean = false
-    override fun checkLPF(): Boolean = true
-    override fun checkStores(): Boolean = true
+    override fun amazonInstallsEnabled(): Boolean = true
+    override fun checkLPF(): Boolean = false
+    override fun checkStores(): Boolean = false
     
     /**
      * This is your app's license key. Get yours on Google Play Dev Console.
      * Default one isn't valid and could cause issues in your app.
      */
-    override fun getLicKey(): String? = "MIIBIjANBgkqhkiGgKglYGYGihLuihUuhhuBlouBkuiu"
+    override fun getLicKey(): String? = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApCYilqKVmCgsTKARVmh1VRya37OdaIl4rf5dQG2LPzlGxBeQvbcO0hbOD1YCMuwXFnWCk/EUI0rrtHoueIsGW0JEFR8hX0vohcBUHVPROX4rMj/pbmeCIGme+UWEHQOL/lkRoWogywf/29A2xDFIVMgHcIXKBJU1xKYuOhEonOvIEGwdxIPbHEREHJxb8d0mKSseUnLc9x5A/IkPo2DYi7qJT34uADRWUrEQ4a9hl9J7kbLZRnJ3Yq0UHn6Ia5QT+bu0CR3PKuz1xgh28No4zRrG6iWkw71J3Hz45Nqsz3cVS6uwRgdKezT9YvHZOhZhp1rWSENf/VRLuNKViXINZQIDAQAB"
     
     /**
      * This is the license checker code. Feel free to create your own implementation or
